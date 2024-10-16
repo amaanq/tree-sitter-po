@@ -16,6 +16,8 @@
 
 (string) @string
 
+(msgstr (string (string_fragment) @spell))
+
 (escape_sequence) @string.escape
 
 (number) @number
@@ -24,7 +26,7 @@
 
 (comment) @comment @spell
 
-(comment (reference (text) @string.special.path))
+(comment (reference (text) @string.special.path @nospell))
 
 (comment (flag (text) @label))
 

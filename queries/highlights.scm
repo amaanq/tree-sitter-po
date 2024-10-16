@@ -24,7 +24,7 @@
 
 (comment) @comment @spell
 
-(comment (reference (text) @string.special.path))
+(comment (reference (text) @string.special.path @nospell))
 
 (comment (flag (text) @label))
 
